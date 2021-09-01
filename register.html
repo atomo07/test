@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Visit best places of india ">
+  <meta name="author" content="Abhay Tomar">
+  <meta name="viewport" content="width-device-width" initial-scale=1.0>
+  <title>INDIAN TOURISM</title>
+  <link rel="stylesheet" href="project.css">
+  <link rel="icon" href="images/title-icon.jpg" type="image/jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- <div class="container"> -->
+  <header class="header">
+
+    <img src="images/logo.jpg">
+
+    <b>Incredible <span>!</span>ndia </b>
+  </header>
+
+  <nav class="nav">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle">
+      <div class="menu">
+              <a href="home.html" >Home</a>
+              <a href="destination.html">Destinations</a>
+              <!-- <a href="home.html">Experiences</a> -->
+              <a href="javascript:void(0)"  class="dropbtn">Experiences</a>
+              <div class="dropdown-content">
+                      <a href="heritage.html">Heritage</a>
+                      <a href="spritual.html">Spiritual</a>
+                      <a href="wildlife.html">Wildlife</a>
+                      <a href="nature.html">Nature</a>
+              </div>
+              <a href="bookingForm.html" class="active">Book Trip</a>
+              <a href="register.html">Register</a>
+              <div class="search-container">
+                      <form action="/action_page.php">
+                              <input type="text" placeholder="Search.." name="search">
+                              <button type="submit"><i class="fa fa-search"
+                                      id="serch_icon"></i></button>
+                      </form>
+              </div>
+      </div>
+
+</nav>
+
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Others</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register" />
+        </div>
+		 <div class="button">
+          <input type="button" value="Return to Home Page" onclick="window.location.href='file:///C:/Users/abhin/Desktop/'" />
+        </div>
+      </form>
+    </div>
+
+    
+</body>
+</html>
